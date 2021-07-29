@@ -33,3 +33,6 @@ class Test_abc:
 
     def test_e(self):
         assert 0
+
+    def test_u(self):
+        assert 0
