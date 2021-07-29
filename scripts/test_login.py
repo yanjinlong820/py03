@@ -27,11 +27,9 @@ class Test_abc:
         a = 3+2
         print(a)
     def test_c(self):
-        a = 3+2
-        print(a)
+        assert 0
     def test_d(self):
-        a = 3+2
-        print(a)
+        assert 0
 
     def test_e(self):
         a = 3 + 3
