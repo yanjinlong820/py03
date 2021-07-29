@@ -32,5 +32,4 @@ class Test_abc:
         assert 0
 
     def test_e(self):
-        a = 3 + 3
-        print(a)
+        assert 0
