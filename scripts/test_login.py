@@ -26,13 +26,13 @@ class Test_abc:
     def test_b(self):
         a = 3+2
         print(a)
-    def test_c(self):
-        assert 0
-    def test_d(self):
-        assert 0
-
-    def test_e(self):
-        assert 0
-
-    def test_u(self):
-        assert 0
+    # def test_c(self):
+    #     assert 0
+    # def test_d(self):
+    #     assert 0
+    #
+    # def test_e(self):
+    #     assert 0
+    #
+    # def test_u(self):
+    #     assert 0
