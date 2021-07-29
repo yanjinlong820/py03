@@ -1,6 +1,14 @@
 # -*- coding: UTF-8 -*-
 import pytest
+import sys
 import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(os.path.split(rootPath)[0])
+
 class Test_abc:
 
 
@@ -23,4 +31,8 @@ class Test_abc:
         print(a)
     def test_d(self):
         a = 3+2
+        print(a)
+
+    def test_e(self):
+        a = 3 + 3
         print(a)
